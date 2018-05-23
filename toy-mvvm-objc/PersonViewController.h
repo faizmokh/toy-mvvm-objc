@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PersonViewController.h
 //  toy-mvvm-objc
 //
 //  Created by Faiz Mokhtar on 22/05/2018.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PersonViewController : UIViewController
 
 @end
-

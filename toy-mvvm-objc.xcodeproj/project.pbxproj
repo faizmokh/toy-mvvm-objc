@@ -8,24 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		98BF5CBE20B4119E00246959 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BF5CBD20B4119E00246959 /* AppDelegate.m */; };
-		98BF5CC120B4119E00246959 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BF5CC020B4119E00246959 /* ViewController.m */; };
 		98BF5CC420B4119E00246959 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98BF5CC220B4119E00246959 /* Main.storyboard */; };
 		98BF5CC620B4119F00246959 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98BF5CC520B4119F00246959 /* Assets.xcassets */; };
 		98BF5CC920B4119F00246959 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98BF5CC720B4119F00246959 /* LaunchScreen.storyboard */; };
 		98BF5CCC20B4119F00246959 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BF5CCB20B4119F00246959 /* main.m */; };
+		98BF5CD420B411B300246959 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BF5CD320B411B300246959 /* Person.m */; };
+		98BF5CD720B412F400246959 /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BF5CD620B412F400246959 /* PersonViewController.m */; };
+		98BF5CDA20B4F6B100246959 /* PersonViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BF5CD920B4F6B100246959 /* PersonViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		98BF5CB920B4119E00246959 /* toy-mvvm-objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "toy-mvvm-objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98BF5CBC20B4119E00246959 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		98BF5CBD20B4119E00246959 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		98BF5CBF20B4119E00246959 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		98BF5CC020B4119E00246959 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		98BF5CC320B4119E00246959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98BF5CC520B4119F00246959 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98BF5CC820B4119F00246959 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98BF5CCA20B4119F00246959 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98BF5CCB20B4119F00246959 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98BF5CD220B411B300246959 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		98BF5CD320B411B300246959 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		98BF5CD520B412F400246959 /* PersonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		98BF5CD620B412F400246959 /* PersonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
+		98BF5CD820B4F6B100246959 /* PersonViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonViewModel.h; sourceTree = "<group>"; };
+		98BF5CD920B4F6B100246959 /* PersonViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +66,12 @@
 			children = (
 				98BF5CBC20B4119E00246959 /* AppDelegate.h */,
 				98BF5CBD20B4119E00246959 /* AppDelegate.m */,
-				98BF5CBF20B4119E00246959 /* ViewController.h */,
-				98BF5CC020B4119E00246959 /* ViewController.m */,
+				98BF5CD220B411B300246959 /* Person.h */,
+				98BF5CD320B411B300246959 /* Person.m */,
+				98BF5CD820B4F6B100246959 /* PersonViewModel.h */,
+				98BF5CD920B4F6B100246959 /* PersonViewModel.m */,
+				98BF5CD520B412F400246959 /* PersonViewController.h */,
+				98BF5CD620B412F400246959 /* PersonViewController.m */,
 				98BF5CC220B4119E00246959 /* Main.storyboard */,
 				98BF5CC520B4119F00246959 /* Assets.xcassets */,
 				98BF5CC720B4119F00246959 /* LaunchScreen.storyboard */,
@@ -141,9 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98BF5CC120B4119E00246959 /* ViewController.m in Sources */,
+				98BF5CDA20B4F6B100246959 /* PersonViewModel.m in Sources */,
 				98BF5CCC20B4119F00246959 /* main.m in Sources */,
+				98BF5CD420B411B300246959 /* Person.m in Sources */,
 				98BF5CBE20B4119E00246959 /* AppDelegate.m in Sources */,
+				98BF5CD720B412F400246959 /* PersonViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
